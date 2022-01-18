@@ -1,0 +1,353 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-image: url('imagenes/fondo-de-lunares.jpg');
+  background-size: 80%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*head*/
+
+.menu {
+  width: 100%;
+  height: 100px;
+}
+.libro {
+  padding: 50px 0 0 50px;
+  width: 60px;
+  height: 60px;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.menu ul li {
+  list-style-type: none;
+  cursor: pointer;
+  padding: 20px;
+  font-family: Chalkduster, fantasy;
+  font-size: 20px;
+  position: relative;
+  top: -110px;
+  right: 50px;
+}
+
+.menu > ul > li > a {
+  color: rgb(97, 42, 47);
+}
+.menu > ul > li > a:link {
+  text-decoration: none;
+  transition: background-color 0.5s;
+}
+.menu > ul > li > a:hover {
+  color: #bd843a;
+  text-decoration-style: dashed;
+}
+
+.menu ul li a:visited {
+  text-decoration: none;
+}
+
+.marco {
+  width: 120px;
+  height: 100px;
+  position: relative;
+  top: -70px;
+  left: 830px;
+}
+.marco-con-imagen {
+  z-index: 1;
+  width: 300px;
+  height: 420px;
+  position: relative;
+  left: 60px;
+}
+.cuentos-pequenitos {
+  position: absolute;
+  top: 60px;
+  left: 110px;
+  width: 200px;
+  height: 300px;
+  z-index: 2;
+  border-radius: 100px;
+}
+
+.titulo {
+  font-family: Chalkduster, fantasy;
+  color: rgb(97, 42, 47);
+  font-size: 140%;
+  text-align: center;
+  width: 500px;
+  height: 100px;
+  position: relative;
+  left: 140px;
+  top: -90px;
+}
+
+.box {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  top: 300px;
+  border: dashed 10px hsl(351, 25%, 90%);
+  border-color: hsl(351, 25%, 90%) transparent transparent transparent;
+  border-radius: 100px;
+}
+
+.titulo-sobre-mi,
+.titulo-cuentos-grabados {
+  font-family: Chalkduster, fantasy;
+  color: rgb(97, 42, 47);
+  font-size: 50px;
+  text-align: center;
+}
+
+.texto-sobre-mi {
+  font-family: Chalkduster, fantasy;
+  color: rgb(97, 42, 47);
+  font-size: 130%;
+  text-align: center;
+  width: 500px;
+  height: 100px;
+  position: relative;
+  left: 500px;
+  top: 50px;
+}
+
+.box1 {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  top: 200px;
+  border: dotted 10px rgb(97, 42, 47);
+  border-color: hsl(351, 25%, 90%) transparent transparent transparent;
+  border-radius: 100px 100px 20px 30px;
+}
+
+/*cuentos grabados*/
+
+div.galeria {
+  margin: 10px 20px;
+  box-shadow: 0 2px 3px 2px rgb(233, 230, 202);
+  float: left;
+  width: 220px;
+  height: 310px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+div.galeria img {
+  width: 100%;
+  height: 90%;
+  border-radius: 5px;
+}
+
+div.galeria:hover {
+  border: 3px solid rgb(202, 189, 189);
+  transform: rotate(-3deg);
+}
+
+div.pie {
+  text-align: center;
+  text-shadow: 2px 2px 5px rgb(240, 232, 162);
+  padding: 0px;
+  font-family: Chalkduster, fantasy;
+  font-size: 16px;
+}
+
+.titulo-cuentos-grabados {
+  position: relative;
+  top: 550px;
+  left: 0px;
+}
+
+.cuentos-galeria {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  position: relative;
+  top: 600px;
+  left: 350px;
+}
+
+.foto {
+  border-radius: 5px;
+  border: 3px dashed #bd843a;
+}
+
+.box2 {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  top: 700px;
+  border: double 8px rgb(97, 42, 47);
+  border-color: hsl(351, 25%, 90%) transparent transparent transparent;
+  border-radius: 100px 100px 20px 0px;
+}
+
+div .cuentos-galeria {
+  display: flex;
+  flex-direction: row;
+}
+
+/* tercera parte*/
+.venta {
+  margin: 100px 20px;
+  box-shadow: 0 4px 15px 0 rgb(240, 232, 162);
+  float: left;
+  width: 200px;
+  height: 300px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  top: 600px;
+  left: 200px;
+}
+
+div.venta img {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+div.venta:hover {
+  transform: rotate(-3deg);
+  border-radius: 5px;
+}
+
+div.pie-venta {
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(207, 198, 166, 0.945);
+  line-height: 4px;
+  font-family: Chalkduster, fantasy;
+  font-size: 16px;
+  color: rgb(97, 42, 47);
+}
+
+.foto-venta {
+  border: 2px inset hsl(351, 25%, 90%);
+  border-radius: 10px 0 10px 0px;
+}
+
+.box3 {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  top: 1100px;
+  border: solid 8px hsl(351, 25%, 90%);
+  border-color: hsl(351, 25%, 90%) transparent transparent transparent;
+  border-radius: 100px 100px 20px 0px;
+}
+
+/*cuarta parte*/
+.formulario,
+.contacto {
+  font-family: Chalkduster, fantasy;
+  color: rgb(97, 42, 47);
+  font-size: 50px;
+  text-align: center;
+  width: 500px;
+  height: 100px;
+  position: relative;
+  left: 500px;
+  top: 700px;
+}
+.formulario {
+  top: -50px;
+  left: 0px;
+}
+
+.nombre,
+.asunto,
+.mail,
+.mensaje {
+  font-size: 20px;
+  position: relative;
+  left: -190px;
+  top: 10px;
+}
+
+.escribir-mensaje {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid hsl(351, 25%, 90%);
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 450px;
+}
+
+input {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid hsl(351, 25%, 90%);
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 450px;
+}
+
+input:hover {
+  border: 1px solid rgb(97, 42, 47);
+}
+
+input .escribir-mensaje {
+  height: 240px;
+}
+
+.enviar {
+  width: 150px;
+  background-color: #e2cba9;
+  border-color: #e2cba9;
+  position: relative;
+  top: 30px;
+  font-family: Chalkduster, fantasy;
+  color: rgb(97, 42, 47);
+  text-align: inherit;
+}
+
+.box4 {
+  width: 1550px;
+  height: 200px;
+  position: relative;
+  top: 150px;
+  left: -600px;
+  border: solid 6px rgb(97, 42, 47);
+  border-color: hsl(351, 25%, 90%) transparent transparent transparent;
+}
+
+/*footer*/
+
+.footer {
+  height: 200px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+  position: relative;
+  top: 1800px;
+  left: -450px;
+}
+
+.texto-final,
+.instagram {
+  font-family: Chalkduster, fantasy;
+  font-size: 18px;
+  color: rgb(97, 42, 47);
+  display: flex;
+  justify-content: center;
+}
+
+.instagram:link {
+  text-decoration: none;
+}

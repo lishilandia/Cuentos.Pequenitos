@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="checkout.css" />
+    <title>Compra de cuentos</title>
+  </head>
+  <body>
+    <div class="head">
+      <div>
+        <img
+          src="./imagenes/libro.png"
+          class="libro"
+          alt=""
+          id="libro"
+          type="radio"
+        />
+      </div>
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html#sobre-mi" id="sobreMi">Sobre mí</a></li>
+          <li><a href="index.html#cuentos-grabados">Cuentos grabados</a></li>
+          <li><a href="index.html#cuentos-en-venta">Cuentos en venta</a></li>
+          <li><a href="index.html#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="compra-venta">
+        <h1 class="titulo">Cuento:</h1>
+        <div id="container"></div>
+        <div><br /><br /></div>
+        <div id="total">
+          <label for="totales" id="montoTotalLabel" class="cantidad"
+            >Total de compra</label
+          >
+          <strong id="montoTotal" class="book-name"></strong>
+        </div>
+      </div>
+      <div>
+        <img class="foto-venta" src="./imagenes/estante-para-libros.png" />
+      </div>
+
+      <div class="footer">
+        <p class="texto-final">Creado por Lisette Pavez</p>
+        <p>
+          <a
+            href="https://www.instagram.com/cuentospequenitos/"
+            class="instagram"
+            >@cuentospequenitos</a
+          >
+        </p>
+        <button class="comprar" onclick="finishCheckout()">Comprar</button>
+      </div>
+    </div>
+
+    <script src="checkout.js"></script>
+  </body>
+</html>

@@ -1,0 +1,160 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-image: url('imagenes/fondo-de-lunares.jpg');
+  background-size: 80%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.menu {
+  width: 100%;
+  height: 100px;
+}
+.libro {
+  padding: 50px 0 0 50px;
+  width: 60px;
+  height: 60px;
+}
+
+#libro:checked {
+  margin-left: 370px;
+  transition: all 2s;
+  -moz-transition: all 2s;
+  -webkit-transition: all 2s;
+  -o-transition: all 2s;
+}
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.menu ul li {
+  list-style-type: none;
+  cursor: pointer;
+  padding: 20px;
+  font-family: Chalkduster, fantasy;
+  font-size: 20px;
+  position: relative;
+  top: -110px;
+  right: 50px;
+}
+
+.menu > ul > li > a {
+  color: rgb(97, 42, 47);
+}
+.menu > ul > li > a:link {
+  text-decoration: none;
+  transition: background-color 0.5s;
+}
+.menu > ul > li > a:hover {
+  color: #bd843a;
+  text-decoration-style: dashed;
+}
+
+.menu ul li a:visited {
+  text-decoration: none;
+}
+
+.compra-venta {
+  padding: 30px;
+  width: 450px;
+  height: 300px;
+  position: relative;
+  left: 700px;
+  background-color: rgb(241, 239, 235);
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px rgb(238, 235, 235);
+}
+.cantidad,
+.quantity {
+  font-family: Chalkduster, fantasy;
+  font-size: 15px;
+  color: rgb(97, 42, 47);
+}
+
+.titulo {
+  font-family: Chalkduster, fantasy;
+  font-size: 30px;
+  color: rgb(97, 42, 47);
+}
+
+.book-name {
+  font-family: Chalkduster, fantasy;
+  font-size: 20px;
+  color: rgb(97, 42, 47);
+}
+
+.remove {
+  background-color: #e2cba9;
+  border-color: #e2cba9;
+  border-radius: 5px;
+}
+
+.agregar-canasto {
+  width: 200px;
+  height: 60px;
+  background-color: #e2cba9;
+  border-color: #e2cba9;
+  border-radius: 5px;
+  position: relative;
+  top: 30px;
+  text-align: center;
+  font-family: Chalkduster, fantasy;
+  font-size: 15px;
+  color: rgb(97, 42, 47);
+  cursor: pointer;
+  position: relative;
+  top: 80px;
+  left: -170px;
+}
+
+.agregar-canasto:hover,
+.remove:hover {
+  border: 1px solid rgb(97, 42, 47);
+}
+
+.foto-venta {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: -300px;
+  left: 200px;
+}
+
+.texto-final,
+.instagram {
+  font-family: Chalkduster, fantasy;
+  font-size: 18px;
+  color: rgb(97, 42, 47);
+  display: flex;
+  justify-content: center;
+}
+
+.instagram:link {
+  text-decoration: none;
+}
+
+.comprar {
+  width: 150px;
+  height: 50px;
+  background-color: #e2cba9;
+  border-color: #e2cba9;
+  position: relative;
+  top: -280px;
+  left: 700px;
+  text-align: center;
+  font-family: Chalkduster, fantasy;
+  color: rgb(97, 42, 47);
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.comprar:hover {
+  border: 1px solid rgb(97, 42, 47);
+}
